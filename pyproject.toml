@@ -1,0 +1,17 @@
+[project]
+name = "cow-yield-ml-model-main"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1.2",
+    "joblib>=1.5.2",
+    "numpy>=1.26.4",
+    "pandas>=2.3.2",
+    "scikit-learn==1.3.1",
+    "xgboost>=3.0.5",
+]
+
+[project.scripts]
+api = "api:app"
